@@ -1,5 +1,6 @@
 #include <iostream>
 #include "student.h"
+#include <cstdlib>
 
 int main(int argc, char* argv[])
 {

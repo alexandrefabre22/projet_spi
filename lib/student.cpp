@@ -62,7 +62,7 @@ std::string Student::print() const
 int Student::nb_presents(const std::vector<Student> &students)
 {
     int n = 0;
-    for(int i=1;i<students.size();i++)
+    for(int i=0;i<students.size();i++)
         if(students.at(i).present())
             n++;
     return n;
