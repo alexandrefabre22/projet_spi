@@ -25,7 +25,7 @@ int main(int argc, char* argv[])
 
   int number_of_students = students.size();
   std::cout << "Number of students: " << number_of_students << std::endl;
-  for(int i=0; i<=number_of_students;i++){
+  for(int i=0; i<number_of_students;i++){
     std::cout << students.at(i).print() << std::endl;
   }
 
